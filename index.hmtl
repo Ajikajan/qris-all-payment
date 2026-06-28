@@ -1,58 +1,22 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Pembayaran QRIS</title>
-
-<style>
-body{
-    margin:0;
-    font-family:Arial,sans-serif;
-    background:#f4f4f4;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    min-height:100vh;
-}
-
-.card{
-    background:white;
-    padding:30px;
-    border-radius:15px;
-    box-shadow:0 0 15px rgba(0,0,0,.15);
-    text-align:center;
-    max-width:450px;
-}
-
-img{
-    width:100%;
-    border-radius:10px;
-}
-
-h2{
-    margin-bottom:10px;
-}
-
-p{
-    color:#555;
-}
-</style>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metode Pembayaran QRIS</title>
+    <style>
+        body { text-align: center; font-family: Arial, sans-serif; padding: 50px; }
+        .qris-container { border: 2px solid #ccc; padding: 20px; display: inline-block; border-radius: 10px; }
+        img { max-width: 300px; height: auto; }
+    </style>
 </head>
-
 <body>
 
-<div class="card">
-<h2>Pembayaran QRIS</h2>
-
-<p>Silakan scan QRIS berikut menggunakan aplikasi pembayaran Anda.</p>
-
-<img src="qrisallpayment.png" alt="QRIS">
-
-<p>Terima kasih 😊</p>
-
-</div>
+    <h2>Silahkan Scan untuk Pembayaran</h2>
+    <div class="qris-container">
+        <img src="qrisallpayment.png" alt="QRIS Pembayaran">
+        <p><strong>Yuk Bayar Menggunakan E-Wallet / M-Banking</strong></p>
+    </div>
 
 </body>
 </html>
